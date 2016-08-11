@@ -1,0 +1,12 @@
+<% if @operation == "add" %>
+<% @sum = @num1.to_i + @num2.to_i %>
+<%= "#{@sum}" %>
+<% elsif @operation == "subtract" %>
+<% @sum = @num1.to_i - @num2.to_i %>
+<%= "#{@sum}" %>
+<% elsif @operation == "multiply" %>
+<% @sum = @num1.to_i * @num2.to_i %>
+<%= "#{@sum}" %> %>
+<% elsif @operation == "divide" %>
+<% @sum = @num1.to_i / @num2.to_i %>
+<%= "#{@sum}" %>	
